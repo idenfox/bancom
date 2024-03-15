@@ -14,4 +14,11 @@ extension UIView {
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor.black.withAlphaComponent(0.2).cgColor
     }
+    
+    func customizeErrorBorder() {
+        self.layer.cornerRadius = 15
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.red.withAlphaComponent(0.8).cgColor
+    }
+
 }

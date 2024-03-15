@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hDg-5a-E19">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -32,16 +32,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="hm5-hQ-p7W">
-                                <rect key="frame" x="32" y="109" width="209" height="70"/>
+                                <rect key="frame" x="32.000000000000014" y="109" width="203.33333333333337" height="69.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Shc-6b-AJe">
-                                        <rect key="frame" x="0.0" y="0.0" width="99" height="23.666666666666668"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="99.666666666666671" height="23.333333333333332"/>
                                         <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inicia Sesión" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4U-Lf-qzk">
-                                        <rect key="frame" x="0.0" y="27.666666666666661" width="209" height="42.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="27.333333333333343" width="203.33333333333334" height="42"/>
                                         <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="36"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -49,7 +49,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="aNb-JT-adQ">
-                                <rect key="frame" x="32" y="229" width="330" height="180"/>
+                                <rect key="frame" x="32" y="228.33333333333337" width="330" height="180"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Zfb-Ne-7tw">
                                         <rect key="frame" x="0.0" y="0.0" width="330" height="75"/>
@@ -58,7 +58,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="330" height="15"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo electrónico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4n-oe-1Fv">
-                                                        <rect key="frame" x="10" y="0.0" width="116" height="16.666666666666668"/>
+                                                        <rect key="frame" x="10" y="0.0" width="116" height="16.333333333333332"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -74,7 +74,7 @@
                                                 <rect key="frame" x="0.0" y="15" width="330" height="60"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="smM-YM-2tn">
-                                                        <rect key="frame" x="10" y="21" width="310" height="18.333333333333329"/>
+                                                        <rect key="frame" x="10" y="20.999999999999972" width="310" height="18"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -93,13 +93,13 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ovf-Jx-MHW">
-                                        <rect key="frame" x="0.0" y="105" width="330" height="75"/>
+                                        <rect key="frame" x="0.0" y="104.99999999999997" width="330" height="75"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0QS-QE-dJQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="330" height="15"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iae-0e-KKf">
-                                                        <rect key="frame" x="10" y="0.0" width="72" height="16.666666666666668"/>
+                                                        <rect key="frame" x="10" y="0.0" width="72.666666666666671" height="16.333333333333332"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -153,16 +153,16 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otR-m9-gVw">
-                                <rect key="frame" x="184" y="419" width="178" height="30"/>
+                                <rect key="frame" x="184" y="418.33333333333331" width="178" height="30"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="¿Olvidaste tu contraseña?"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ir-7Q-fit">
-                                <rect key="frame" x="32" y="478" width="142" height="30"/>
+                                <rect key="frame" x="32" y="463.33333333333331" width="144" height="30"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64e-Wi-zBo">
-                                        <rect key="frame" x="0.0" y="0.0" width="142" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="144" height="30"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconBox" translatesAutoresizingMaskIntoConstraints="NO" id="SXo-uk-txS">
                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
@@ -171,7 +171,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recordar correo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8En-Yg-zCB">
-                                                <rect key="frame" x="35" y="0.0" width="107" height="30"/>
+                                                <rect key="frame" x="35" y="0.0" width="109" height="30"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -179,7 +179,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT4-tS-Sdr">
-                                        <rect key="frame" x="0.0" y="0.0" width="142" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="144" height="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
                                             <action selector="checkboxButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ef4-RB-0ml"/>
@@ -210,6 +210,9 @@
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Ingresar"/>
+                                                <connections>
+                                                    <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jXq-8H-6NQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.48627450980392156" green="0.22745098039215686" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
@@ -264,7 +267,7 @@
                             <constraint firstItem="otR-m9-gVw" firstAttribute="top" secondItem="aNb-JT-adQ" secondAttribute="bottom" constant="10" id="1CD-uo-yPv"/>
                             <constraint firstItem="Xtx-S8-dc7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1VP-Ut-dIG"/>
                             <constraint firstItem="Xtx-S8-dc7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3jJ-N1-UGV"/>
-                            <constraint firstItem="9Ir-7Q-fit" firstAttribute="top" secondItem="otR-m9-gVw" secondAttribute="bottom" constant="29" id="4a1-WR-RR0"/>
+                            <constraint firstItem="9Ir-7Q-fit" firstAttribute="top" secondItem="otR-m9-gVw" secondAttribute="bottom" constant="15" id="4a1-WR-RR0"/>
                             <constraint firstItem="aNb-JT-adQ" firstAttribute="top" secondItem="hm5-hQ-p7W" secondAttribute="bottom" constant="50" id="7dp-aF-PzW"/>
                             <constraint firstItem="9Ir-7Q-fit" firstAttribute="leading" secondItem="aNb-JT-adQ" secondAttribute="leading" id="8ey-I2-NWg"/>
                             <constraint firstAttribute="bottom" secondItem="ac2-L0-XbI" secondAttribute="bottom" constant="60" id="Fuh-ab-Kxt"/>
@@ -277,6 +280,7 @@
                             <constraint firstAttribute="bottom" secondItem="Xtx-S8-dc7" secondAttribute="bottom" id="gH3-D1-OpA"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="o24-vn-26A"/>
                     <connections>
                         <outlet property="checkboxImageView" destination="SXo-uk-txS" id="gg2-ZT-Gnj"/>
                         <outlet property="emailTextField" destination="smM-YM-2tn" id="uCX-yL-FAO"/>
@@ -285,12 +289,33 @@
                         <outlet property="loginButton" destination="uyO-Ga-8Xq" id="h08-xO-wUU"/>
                         <outlet property="loginView" destination="tZz-cs-zAI" id="ah8-Ky-igK"/>
                         <outlet property="lostPassButton" destination="otR-m9-gVw" id="Qma-UC-MZ4"/>
+                        <outlet property="mailLabel" destination="c4n-oe-1Fv" id="ugN-03-kno"/>
                         <outlet property="mailView" destination="hKC-Vl-XpX" id="0Mf-In-TXx"/>
+                        <outlet property="passLabel" destination="iae-0e-KKf" id="X0f-zm-Kg1"/>
                         <outlet property="passwordTextField" destination="8af-cJ-FtY" id="J2e-Bt-ALm"/>
                         <outlet property="passwordView" destination="q7F-Do-56A" id="uSB-W7-ufu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947.32824427480909" y="4.9295774647887329"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fnp-8d-Ged">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="hDg-5a-E19" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="O2H-2G-Sdo">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="DUi-mA-80d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O1H-ic-nSo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="20.610687022900763" y="4.9295774647887329"/>
         </scene>
