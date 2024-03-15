@@ -32,6 +32,7 @@
 		ED0407892BA4B109001BDF0A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED04077D2BA4B109001BDF0A /* Roboto-Bold.ttf */; };
 		ED04078A2BA4B109001BDF0A /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED04077E2BA4B109001BDF0A /* Roboto-Black.ttf */; };
 		ED04078B2BA4B109001BDF0A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED04077F2BA4B109001BDF0A /* Roboto-Medium.ttf */; };
+		EDF9EDB92BA4E73B00A39355 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9EDB82BA4E73B00A39355 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		ED04077D2BA4B109001BDF0A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		ED04077E2BA4B109001BDF0A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		ED04077F2BA4B109001BDF0A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		EDF9EDB82BA4E73B00A39355 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 		ED0407722BA4B0DD001BDF0A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EDF9EDB72BA4E71700A39355 /* Extensions */,
 				ED0407732BA4B0EE001BDF0A /* Fonts */,
 			);
 			path = Resources;
@@ -242,6 +245,14 @@
 				ED04077B2BA4B109001BDF0A /* Roboto-ThinItalic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EDF9EDB72BA4E71700A39355 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDF9EDB82BA4E73B00A39355 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F48365A6D2E40CF5718F81F9 /* Frameworks */ = {
@@ -472,6 +483,7 @@
 				ED0407702BA4AC49001BDF0A /* LoginPresenter.swift in Sources */,
 				ED0407412BA4ABDA001BDF0A /* LoginViewController.swift in Sources */,
 				ED04073D2BA4ABDA001BDF0A /* AppDelegate.swift in Sources */,
+				EDF9EDB92BA4E73B00A39355 /* UIView+Extension.swift in Sources */,
 				ED04073F2BA4ABDA001BDF0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
