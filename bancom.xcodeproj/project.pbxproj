@@ -32,6 +32,8 @@
 		ED0407892BA4B109001BDF0A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED04077D2BA4B109001BDF0A /* Roboto-Bold.ttf */; };
 		ED04078A2BA4B109001BDF0A /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED04077E2BA4B109001BDF0A /* Roboto-Black.ttf */; };
 		ED04078B2BA4B109001BDF0A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED04077F2BA4B109001BDF0A /* Roboto-Medium.ttf */; };
+		ED3B366A2BA54C7200CA7FC4 /* APIFetchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3B36692BA54C7200CA7FC4 /* APIFetchHandler.swift */; };
+		ED3B366C2BA5561100CA7FC4 /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3B366B2BA5561100CA7FC4 /* PokemonData.swift */; };
 		ED5EEF602BA5373600F985D0 /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EEF5E2BA5373600F985D0 /* PokemonCollectionViewCell.swift */; };
 		ED5EEF612BA5373600F985D0 /* PokemonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5EEF5F2BA5373600F985D0 /* PokemonCollectionViewCell.xib */; };
 		ED5EEF632BA5375D00F985D0 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EEF622BA5375D00F985D0 /* PokemonModel.swift */; };
@@ -95,6 +97,8 @@
 		ED04077D2BA4B109001BDF0A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		ED04077E2BA4B109001BDF0A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		ED04077F2BA4B109001BDF0A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		ED3B36692BA54C7200CA7FC4 /* APIFetchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetchHandler.swift; sourceTree = "<group>"; };
+		ED3B366B2BA5561100CA7FC4 /* PokemonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
 		ED5EEF5E2BA5373600F985D0 /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
 		ED5EEF5F2BA5373600F985D0 /* PokemonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokemonCollectionViewCell.xib; sourceTree = "<group>"; };
 		ED5EEF622BA5375D00F985D0 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
@@ -238,6 +242,7 @@
 		ED0407722BA4B0DD001BDF0A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ED3B36682BA54C4E00CA7FC4 /* API */,
 				EDF9EDB72BA4E71700A39355 /* Extensions */,
 				ED0407732BA4B0EE001BDF0A /* Fonts */,
 			);
@@ -261,6 +266,15 @@
 				ED04077B2BA4B109001BDF0A /* Roboto-ThinItalic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ED3B36682BA54C4E00CA7FC4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				ED3B36692BA54C7200CA7FC4 /* APIFetchHandler.swift */,
+				ED3B366B2BA5561100CA7FC4 /* PokemonData.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		ED5EEF5D2BA536F900F985D0 /* Cells */ = {
@@ -578,9 +592,11 @@
 				ED04073D2BA4ABDA001BDF0A /* AppDelegate.swift in Sources */,
 				EDF9EDB92BA4E73B00A39355 /* UIView+Extension.swift in Sources */,
 				ED04073F2BA4ABDA001BDF0A /* SceneDelegate.swift in Sources */,
+				ED3B366C2BA5561100CA7FC4 /* PokemonData.swift in Sources */,
 				EDF9EDC02BA5097C00A39355 /* HomeViewController.swift in Sources */,
 				EDF9EDBD2BA5057400A39355 /* Constants.swift in Sources */,
 				EDF9EDC22BA5098900A39355 /* HomePresenter.swift in Sources */,
+				ED3B366A2BA54C7200CA7FC4 /* APIFetchHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,6 +780,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9C4ZWSUSE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bancom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -794,6 +811,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9C4ZWSUSE;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bancom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

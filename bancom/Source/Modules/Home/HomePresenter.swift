@@ -43,6 +43,37 @@ class HomePresenter {
         }
     }
     
+    private func getInitialData() {
+        let sawPokemonIds = getPokemonIds()
+        var sawPokemonModels: [PokemonModel] = []
+        
+        for sawPokemonId in sawPokemonIds {
+            APIFetchHandler.sharedInstance.fetchPokemonInfo(pokemonNumber: sawPokemonId) { result in
+                switch result {
+                case .success(let pokemonData):
+                    let model = PokemonModel(id: sawPokemonId,
+                                             name: pokemonData.species.name,
+                                             type: pokemonData.types.first?.type.name,
+                                             imgUrl: pokemonData.sprites.front_default,
+                                             level: nil)
+                    sawPokemonModels.append(model)
+                    self.view?.updateSawPokemonCollection(array: sawPokemonModels)
+                case .failure(let error):
+                    self.view?.showAlert(message: "Error al avistar pokemon", alertAction: nil)
+                }
+            }
+        }
+    }
+    
+    func getPokemonIds() -> [Int] {
+        var randomArray = [Int]()
+        for _ in 1...5 {
+            let randomNumber = Int.random(in: 1...150)
+            randomArray.append(randomNumber)
+        }
+        return randomArray
+    }
+    
     @objc func fireTimer() {
         let alertAction = UIAlertAction(title: "Ok", style: .default) { action in
             self.view?.popToLogin()
@@ -56,6 +87,7 @@ extension HomePresenter: HomePresenterProtocol {
         createLogoutTimer()
         let storedPokemon = getAllStoredPokemon()
         view?.updateStoredPokemonColection(array: storedPokemon)
+        getInitialData()
     }
     
     func addPokemon(texts: [String]) {

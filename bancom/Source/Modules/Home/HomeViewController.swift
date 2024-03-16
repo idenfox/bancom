@@ -10,6 +10,7 @@ import UIKit
 protocol HomeViewProtocol: AnyObject {
     func popToLogin()
     func showAlert(message: String, alertAction: UIAlertAction?)
+    func updateSawPokemonCollection(array: [PokemonModel])
     func updateStoredPokemonColection(array: [PokemonModel])
 }
 
@@ -96,6 +97,11 @@ extension HomeViewController: HomeViewProtocol {
     func updateStoredPokemonColection(array: [PokemonModel]) {
         self.storedPokemon = array
         self.verticalCollectionView.reloadData()
+    }
+    
+    func updateSawPokemonCollection(array: [PokemonModel]) {
+        self.sawPokemon = array
+        self.collectionView.reloadData()
     }
 }
 
