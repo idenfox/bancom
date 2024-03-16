@@ -7,6 +7,7 @@ target 'bancom' do
 
   # Pods for bancom
 pod 'Alamofire'
+pod 'SDWebImage'
 
 
   target 'bancomTests' do

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class PokemonCollectionViewCell: UICollectionViewCell {
 
@@ -14,6 +15,8 @@ class PokemonCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var pokemonImageView: UIImageView!
     @IBOutlet weak var typeImageView: UIImageView!
+    
+    var dittoImgUrl = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,6 +28,8 @@ class PokemonCollectionViewCell: UICollectionViewCell {
         nameLabel.text = model.name
         typeLabel.text = model.type
         typeImageView.image = getTypeImage()
+        let imageUrl = URL(string: model.imgUrl ?? dittoImgUrl)
+        pokemonImageView.sd_setImage(with: imageUrl, placeholderImage: UIImage(named: "iconPokeball"))
     }
     
     private func getTypeImage() -> UIImage {
@@ -33,7 +38,7 @@ class PokemonCollectionViewCell: UICollectionViewCell {
             return UIImage(named: "iconFire")!
         case "agua", "water":
             return UIImage(named: "iconWater")!
-        case "hoja", "planta", "leaf":
+        case "hoja", "planta", "leaf", "grass":
             return UIImage(named: "iconLeaf")!
         case "electrico", "eléctrico", "electricidad", "trueno", "electric":
             return UIImage(named: "iconElectricity")!
