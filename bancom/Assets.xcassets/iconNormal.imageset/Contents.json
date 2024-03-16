@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Pokémon_Normal_Type_Icon.svg.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

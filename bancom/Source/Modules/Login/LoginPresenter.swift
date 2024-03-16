@@ -54,6 +54,7 @@ class LoginPresenter {
                 safeUserName != "" else { return }
         view?.updateLoginUsername(user: safeUserName)
         view?.updateCheckBox(value: true)
+        isCheckboxSelected = true
     }
     
 }
