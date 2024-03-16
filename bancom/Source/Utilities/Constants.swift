@@ -8,7 +8,7 @@
 import Foundation
 
 struct Constants {
-    static let dummyMail = "123"
-    static let dummyPass = "123"
+    static let dummyMail = "correo@gmail.com"
+    static let dummyPass = "123456"
     static let UsernameKey = "username"
 }
