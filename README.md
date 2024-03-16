@@ -4,7 +4,7 @@ Bancom Test Demo es una aplicación de demostración que muestra cómo implement
 
 Funcionalidades
 
-Inicio de sesión: Los usuarios pueden iniciar sesión utilizando sus credenciales.
+Inicio de sesión: Los usuarios pueden iniciar sesión utilizando sus credenciales. El session timeout es de 180 segs.
 Consumo de API: La aplicación consume una API para obtener datos adicionales después del inicio de sesión.
 Carga de imágenes: Se muestran imágenes desde una URL utilizando SDWebImage.
 Requisitos
